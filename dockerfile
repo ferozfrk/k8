@@ -1,4 +1,4 @@
-FROM httpd
+FROM centos:letest
 MAINTAINER feroz
 RUN yum -y install httpd
 COPY index.html /var/www/html/
